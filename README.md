@@ -1,4 +1,5 @@
 # Data-Science-Capstone
+
 Capstone project
 
 ![alt text](https://github.com/aradaha/Data-Science-Capstone/blob/main/Pictures/1880.gif)
@@ -21,5 +22,10 @@ Generally I divided one stat by another to get statistics that weren't automatic
 
 I decided to seperate the pitchers from the rest of the players in order to evaluate them based on the stats specific to them, and because I figure that generally other fielders are relatively interchangable.
 
+When evaluating players, I figured that a good metric was received awards, as the number of them who did was around 25 percent, which would make a reasonable test/train split. So I used several classifiers, which ended up being relatively similar.
+
+The accuracy of the models was around 90 percent, but a few of them did well by placing too many players in the category of no award, which was about five times larger than the other categories.
+
+I ended up using the three best classifiers. I tried to improve them by changing parameters around a bit, but I was unable to significantly increase their accuracy.
 
 ![alt text](https://github.com/aradaha/Data-Science-Capstone/blob/main/Pictures/BabeRuth.gif)
